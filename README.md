@@ -64,7 +64,4 @@ example(int):
 example(int) [clone .cold]:
 ```
 
-Comparison and Conditional Jumps:
-* cmp edi, 10 followed by jg .L42 checks if x > 10.
-* cmp edi, 5 followed by jg .L42 checks if x > 5.
-* test edi, edi followed by jle .L12 checks if x <= 0.
+You can notice that it always prepare the input args before jump.
