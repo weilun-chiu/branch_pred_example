@@ -5,7 +5,7 @@ This section demonstrates how branch prediction works in a C++ program by examin
 ## Generated Assembly Code
 The following assembly code corresponds to the C++ function above:
 
-``assembly
+```assembly
 .LC0:
         .string "x is greater than 10"
 .LC1:
@@ -62,7 +62,7 @@ example(int):
         movsx   esi, al
         jmp     .L16
 example(int) [clone .cold]:
-``
+```
 
 Comparison and Conditional Jumps:
 * cmp edi, 10 followed by jg .L42 checks if x > 10.
