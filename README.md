@@ -64,4 +64,4 @@ example(int):
 example(int) [clone .cold]:
 ```
 
-You can notice that it always prepare the input args before jump.
+You can notice that it always prepare the input args before cmp and jump.
